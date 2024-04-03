@@ -1,6 +1,9 @@
 body {
 margin: 0;
-background: pink;
+background-color: pink;
  text-align: center;
+}
+ h1 {
+  color: white;
 }
 
