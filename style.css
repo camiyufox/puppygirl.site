@@ -1,9 +1,13 @@
 body {
 margin: 0;
-background-color: pink;
+background-color: b064a0;
  text-align: center;
 }
  h1 {
   color: white;
+  font: courier-new;
 }
-
+p1 {
+ color: white;
+ font: helvetica;
+}
