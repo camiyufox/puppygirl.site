@@ -12,6 +12,6 @@ p1 {
  font: helvetica;
 }
 .fit-picture {
-  width: 672px;
- height: 1157px;
+  max-width: 100%; 
+ height: auto;
 }
