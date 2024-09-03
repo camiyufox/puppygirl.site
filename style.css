@@ -1,17 +1,30 @@
-body {
-margin: 0;
-background-color: #FFB3DD;
- text-align: center;
+:root{
+	background-color: #3e424b;
+	color:#fff;
+	overflow:scroll;
 }
- h1 {
-  color: white;
-  font: courier-new;
+*{
+	box-sizing: border-box;
 }
-p1 {
- color: white;
- font: helvetica;
+body{
+	background-image: './bg.png';
+	background-repeat: repeat;
 }
-.fit-picture {
-max-width: 50%;
-  height: auto;
+h1, h2, h3, h4, h5, h6{
+	margin:0;
+}
+/*custom scrollbar*/
+::-webkit-scrollbar{
+	width:5px;
+	background-clip: padding-box;
+}
+::-webkit-scrollbar-track{
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #49555e;
+	border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-color: #3b454b;
 }
